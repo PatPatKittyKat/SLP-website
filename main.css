@@ -1,10 +1,10 @@
 /* Comments on colors: where it is used - default color */
 :root {
-    --primary-color: #BFD8D2;
+    --primary-color: #07889B;
     --primary-text: #303030;
     --secondary-text: #818181;
     --secondary-section: #F6F6F6;
-    --menu-text: #000;
+    --menu-text: #fff;
 }
 
 body {
