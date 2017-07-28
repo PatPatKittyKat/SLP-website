@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <!-- Theme Made By www.w3schools.com - No Copyright -->
-  <title>LJHC | Speech Language Pathology</title>
+  <title>LJHC | About LJHC</title>
   <link rel="shortcut icon" href="images/trophy.png"> <!-- Alan -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,6 +12,29 @@
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <style>
+  #contact{
+    padding-bottom: 0px;
+  }
+
+  #aboutPage{
+    border-right: 2px solid #000000;
+    padding-right: 8%;
+    text-align: justify;
+  }
+  #title {
+    text-align: center;
+    font-size: 200%;
+  }
+  #logo {
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 4px;
+  }
+  #bio {
+    text-align: left;
+  }
+  </style>
 </head>
 
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
@@ -40,35 +63,18 @@
   </div>
 </nav>
 
-<div class="jumbotron text-center">
-  <h1>LJHC Speech Language Pathology</h1> 
-  <p>LeeJane Hong-Cooper - MS, CCC-SLP</p> 
-</div>
-
-<nav class="navbar navbar-default">
-  <div class="container">
-    <div class="collapse navbar-collapse sub1">
-      <ul class="nav navbar-nav">
-        <li><a href="#about">ABOUT</a></li>
-        <li><a href="#services">SERVICES</a></li>
-        <li><a href="#photos">PHOTOS</a></li>
-        <li><a href="#pricing">PRICING</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
 <!-- Container (About Section) -->
 <div id="about" class="container-fluid">
   <div class="row">
-    <div class="col-sm-8" style="border-right: 2px solid #000000; padding-right: 8%; text-align: justify;">
-      <h2>About</h2><br>
+    <div class="col-sm-8" id="aboutPage">
+      <h2 id ="title">About &nbsp;&nbsp;<span id="logo">LJHC</span></h2>
+      <br>
       <h4>After receiving her Master of Science degree in Speech Pathology from Texas Tech University in 1980, LeeJane continues to receive advanced training to extend her skillset. By attending professional conferences at the state and national levels, she keeps up-to-date with the most current researched studies to complement her 30+ years of practical experience. </h4>
       <h4>LeeJane's extensive clinical experience includes   working at rehabilitation hospitals in the Houston Medical Center, Humble, and NW Houston areas, home health settings, public school settings, head start programs, and private clinics.</h4>
       <h4>Being a three-time recipient of the prestigious ASHA's ACE Award is proof of her compassion in the field of Speech Pathology. In addition, numerous positive testimonials from past clients and their family members are the results of her dedication to her patients.
       </h4>
-      <p><strong>MEMBERSHIPS &amp PROFESSIONAL AFFILIATIONS:</strong>
-        <ul>
+      <p id="bio"><strong>MEMBERSHIPS &nbsp;&amp;&nbsp; PROFESSIONAL AFFILIATIONS:</strong>
+        <ul id="bio">
           <li>American Speech and Hearing Association (ASHA)</li>
           <li>Texas Speech and Hearing Association (TSHA)</li>
           <li>Houston Association for Communication Disorders</li>
@@ -86,79 +92,6 @@
   </div>
 </div>
 
-<!-- Container (Services Section) -->
-<div id="services" class="container-fluid text-center">
-  <h2>SERVICES</h2>
-  <h4>Experienced in treating:</h4>
-  <br>
-  <div class="row slideanim">
-    <div class="col-sm-4">
-      <p>Aphasia</p>
-    </div>
-    <div class="col-sm-4">
-      <p>Developmental Language Delay</p>
-    </div>
-    <div class="col-sm-4">
-      <p>Speech Delay</p>
-    </div>
-  </div>
-  <div class="row slideanim">
-    <div class="col-sm-4">
-      <p>Apraxia</p>
-    </div>
-    <div class="col-sm-4">
-      <p>Down Syndrome</p>
-    </div>
-    <div class="col-sm-4">
-      <p>Speech Impairment</p>
-    </div>
-  </div>
-  <div class="row slideanim">
-    <div class="col-sm-4">
-      <p>Articulation Disorders</p>
-    </div>
-    <div class="col-sm-4">
-      <p>Dysphagia</p>
-    </div>
-    <div class="col-sm-4">
-      <p>Stuttering</p>
-    </div>
-  </div>
-  <div class="row slideanim">
-    <div class="col-sm-4">
-      <p>Auditory Processing Disorders</p>
-    </div>
-    <div class="col-sm-4">
-      <p>Expressive Language Disorder</p>
-    </div>
-    <div class="col-sm-4">
-      <p>Swallowing Disorders</p>
-    </div>
-  </div>
-  <div class="row slideanim">
-    <div class="col-sm-4">
-      <p>Autism</p>
-    </div>
-    <div class="col-sm-4">
-      <p>Language Problems</p>
-    </div>
-    <div class="col-sm-4">
-      <p>Voice Disorders</p>
-    </div>
-  </div>
-  <div class="row slideanim">
-    <div class="col-sm-4">
-      <p>Developmental Delay</p>
-    </div>
-    <div class="col-sm-4">
-      <p>Phonological Disorders</p>
-    </div>
-    <div class="col-sm-4">
-      <p>...and more</p>
-    </div>
-  </div>
-</div>
-
 <!-- Container (Contact Section) -->
 <div id="contact" class="container-fluid bg-grey">
   <h2 class="text-center">CONTACT</h2>
@@ -167,18 +100,16 @@
       <p><span class="glyphicon glyphicon-phone"></span> (713) 417-0280</p>
       <p><span class="glyphicon glyphicon-envelope"></span> leejanehc@gmail.com</p>
       <p><span class="glyphicon glyphicon-map-marker"></span> 14511 Falling Creek Dr. Ste 102 Houston, TX 77388</p>
-    </div>
-    
-</div>
+    </div>  
+  </div>
 
 <footer class="container-fluid text-center">
   <a href="#myPage" title="To Top">
     <span class="glyphicon glyphicon-chevron-up"></span>
   </a>
-  <!--
-  <p>Bootstrap Theme Made By <a href="https://www.w3schools.com" title="Visit w3schools">www.w3schools.com</a></p>
-  -->
 </footer>
+
+<div>
 
 <script>
 $(document).ready(function(){
