@@ -29,8 +29,9 @@ h4 {
 .jumbotron {
     background-color: var(--primary-color);  /* jumbotron background color - bright red #f4511e */
     color: var(--menu-text);  /* jumbotron text color - white #fff */
-    padding: 75px 25px;     /* original padding: 100px 25px */
+    padding: 50px 25px;     /* original padding: 100px 25px */
     font-family: Montserrat, sans-serif;
+    margin-bottom: 0; /* to remove space between jumbotron and secondary navbar */
 }
 .container-fluid {
     padding: 60px 50px;
@@ -136,6 +137,9 @@ h4 {
     border-color: transparent;
     color: var(--menu-text) !important; /* white #fff */
 }
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: var(--menu-text);
+}
 footer .glyphicon {
     font-size: 20px;
     margin-bottom: 20px;
@@ -148,6 +152,9 @@ footer .glyphicon {
     animation-duration: 1s;
     -webkit-animation-duration: 1s;
     visibility: visible;
+}
+.sub1 {
+    padding-left: 31.5%;
 }
 
 #ASHA {
