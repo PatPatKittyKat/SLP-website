@@ -29,7 +29,7 @@ h4 {
 .jumbotron {
     background-color: var(--primary-color);  /* jumbotron background color - bright red #f4511e */
     color: var(--menu-text);  /* jumbotron text color - white #fff */
-    padding: 100px 25px;
+    padding: 75px 25px;     /* original padding: 100px 25px */
     font-family: Montserrat, sans-serif;
 }
 .container-fluid {
