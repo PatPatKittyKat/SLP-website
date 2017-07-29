@@ -58,34 +58,7 @@
   </div>
 </nav>
 
-<!-- Container (About Section) -->
-<div id="about" class="container-fluid">
-  <div class="row">
-    <div class="col-sm-8">
-      <h2>About</h2><br>
-      <h4>After receiving her Master of Science degree in Speech Pathology from Texas Tech University in 1980, LeeJane continues to receive advanced training to extend her skillset. By attending professional conferences at the state and national levels, she keeps up-to-date with the most current researched studies to complement her 30+ years of practical experience. </h4>
-      <h4>LeeJane's extensive clinical experience includes   working at rehabilitation hospitals in the Houston Medical Center, Humble, and NW Houston areas, home health settings, public school settings, head start programs, and private clinics.</h4>
-      <h4>Being a three-time recipient of the prestigious ASHA's ACE Award is proof of her compassion in the field of Speech Pathology. In addition, numerous positive testimonials from past clients and their family members are the results of her dedication to her patients.
-      </h4>
-      <p><strong>MEMBERSHIPS &amp PROFESSIONAL AFFILIATIONS:</strong>
-        <ul>
-          <li>American Speech and Hearing Association (ASHA)</li>
-          <li>Texas Speech and Hearing Association (TSHA)</li>
-          <li>Houston Association for Communication Disorders</li>
-          <li>ASHA Special Interest Group 03: Voice and Voice Disorders</li>
-          <li>ASHA Special Interest Group 14: Culture and Linguistic Diversity</li>
-          <li>ASHA Special Interest Group 18: Telepractice</li>
-        </ul>
-      </p>
-    </div>
-    <div class="col-sm-4">
-      <a href="http://www.asha.org">
-        <img src="images/ASHA_Banner.jpg" id="ASHA">
-      </a>
-    </div>
-  </div>
-</div>
-
+<!-- Container (Values Section) -->
 <div class="container-fluid bg-grey">
   <div class="row">
     <div class="col-sm-4">
@@ -252,12 +225,18 @@
       <p><span class="glyphicon glyphicon-envelope"></span> leejanehc@gmail.com</p>
       <p><span class="glyphicon glyphicon-map-marker"></span> 14511 Falling Creek Dr. Ste 102 Houston, TX 77388</p>
     </div>
-    
+  </div>
+  <br>
+  <!-- Add Google Maps -->
+  <div id="googleMap" style="height: 400px; width: 100%;"></div>
+  <footer class="container-fluid text-center">
+    <a href="#myPage" title="To Top">
+      <span class="glyphicon glyphicon-chevron-up"></span>
+    </a>
+  <!--<p>Bootstrap Theme Made By <a href="https://www.w3schools.com" title="Visit w3schools">www.w3schools.com</a></p>-->
+  </footer>
 </div>
 
-<br>
-<!-- Add Google Maps -->
-<div id="googleMap" style="height:400px;width:100%;"></div>
 <script>
 function myMap() {
 var myCenter = new google.maps.LatLng(29.991673,-95.487251);
@@ -267,22 +246,12 @@ var marker = new google.maps.Marker({position:myCenter});
 marker.setMap(map);
 }
 </script>
+
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC7mvnbHzsCXI5DXrMHIg_EvIx-uaQknWo&callback=myMap"></script>
 <!-- Anthony used his Google Maps JavaScript API key -->
 
-<!--
-To use this code on your website, get a free API key from Google. (Anthony has done this)
-Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
--->
-
-<footer class="container-fluid text-center">
-  <a href="#myPage" title="To Top">
-    <span class="glyphicon glyphicon-chevron-up"></span>
-  </a>
-  <!--
-  <p>Bootstrap Theme Made By <a href="https://www.w3schools.com" title="Visit w3schools">www.w3schools.com</a></p>
-  -->
-</footer>
+<!--To use this code on your website, get a free API key from Google. (Anthony has done this)
+Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp-->
 
 <script>
 $(document).ready(function(){
