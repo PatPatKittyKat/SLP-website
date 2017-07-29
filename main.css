@@ -27,7 +27,7 @@ h4 {
     margin-bottom: 30px;
 }  
 .jumbotron {
-    background-color: var(--primary-color);  /* jumbotron background color - bright red #f4511e */
+    background-color: var(--primary-color);  /* jumbotron background color - turqouise blue */
     color: var(--menu-text);  /* jumbotron text color - white #fff */
     padding: 50px 25px;     /* original padding: 100px 25px */
     font-family: Montserrat, sans-serif;
@@ -155,11 +155,6 @@ footer .glyphicon {
 }
 .sub1 {
     padding-left: 31.5%;
-}
-#ASHA {
-  float: right;
-  position: relative;
-  width: 80%;
 }
 
 @keyframes slide {
