@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <!-- Theme Made By www.w3schools.com - No Copyright -->
-  <title>LJHC | Development</title>
+  <title>LJHC | Test</title>
   <link rel="shortcut icon" href="images/trophy.png">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,20 +12,6 @@
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <style>
-  #contact{
-    padding-bottom: 0px;
-  }
-  #devPage{
-    border-right: 2px solid #000000;
-    padding-right: 8%;
-    text-align: justify;
-  }
-  #title {
-    text-align: center;
-    font-size: 200%;
-  }
-  </style>
 </head>
 
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
@@ -52,32 +38,39 @@
   </div>
 </nav>
 
-<!-- Container (Development Section) -->
-<div id="development" class="container-fluid text-center">
-  <div id="development">
-    <h2 id ="title">Development</h2>
-  </div>
-
-  <p>Anthony is great at using HTML</p>
-</div>
-
 <!-- Container (Contact Section) -->
 <div id="contact" class="container-fluid bg-grey">
   <h2 class="text-center">CONTACT</h2>
-  <div class="row">
-    <div class="col-sm-12" align="center">
+  <p>https://creativeplateblog.files.wordpress.com/2015/02/screen-shot-2015-02-22-at-7-31-09-am.png</p>
+  <br>
+  <div style="width: 49%; height: 400px; display: inline-block; border: 3px solid black">
+    <div id="googleMap" class="col-sm-4" style="height: 394px; width: 100%;"></div>
+  </div>
+  <div style="width: 49%; height: 400px; display: inline-block; vertical-align: top">
+    <div class="row col-sm-12" align="center">
       <p><span class="glyphicon glyphicon-phone"></span> (713) 417-0280</p>
       <p><span class="glyphicon glyphicon-envelope"></span> leejanehc@gmail.com</p>
       <p><span class="glyphicon glyphicon-map-marker"></span> 14511 Falling Creek Dr. Ste 102 Houston, TX 77388</p>
     </div>  
   </div>
-
   <footer class="container-fluid text-center">
     <a href="#myPage" title="To Top">
       <span class="glyphicon glyphicon-chevron-up"></span>
     </a>
   </footer>
 </div>
+
+<script>
+function myMap() {
+var myCenter = new google.maps.LatLng(29.991673,-95.487251);
+var mapProp = {center:myCenter, zoom:10, scrollwheel:false, draggable:false, mapTypeId:google.maps.MapTypeId.ROADMAP};
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+var marker = new google.maps.Marker({position:myCenter});
+marker.setMap(map);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC7mvnbHzsCXI5DXrMHIg_EvIx-uaQknWo&callback=myMap"></script>
 
 <script>
 $(document).ready(function(){
