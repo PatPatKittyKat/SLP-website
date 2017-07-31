@@ -20,13 +20,17 @@
       border-right: 3px solid #000000;
     }
     .leftPadding {
-      padding-left: 8%;
+      padding-left: 6%;
     }
     .primaryBlue {
       color: #07889B;
     }
     .subHeaders {
       color: #000000;
+    }
+    #logo {
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 3px;
     }
   </style>
 </head>
@@ -57,12 +61,14 @@
 
 <!-- Container (Contact Section) -->
 <div id="contact" class="container-fluid bg-grey sideMargins">
-  <div class="col-sm-8 rightBorder">
+  <div class="col-sm-8">
     <h2 class="primaryBlue">Office Location</h2>
-    <div id="googleMap" class="col-sm-4" style="height: 400px; width: 90%;"></div>
+    <div class="col-sm-12 rightBorder">
+      <div id="googleMap" style="height: 400px; width: 90%;"></div>
+    </div>
   </div>
   <div class="col-sm-4 leftPadding">
-    <h2 class="primaryBlue">Contact LJHC</h2>
+    <h2 class="primaryBlue" align="left">Contact&nbsp;&nbsp;<span id="logo">LJHC</span></h2>
     <h3 class="subHeaders"><span class="primaryBlue glyphicon glyphicon-phone"></span> Phone Number</h3>
     <p>(713) 417-0280</p>
     <h3 class="subHeaders"><span class="primaryBlue glyphicon glyphicon-envelope"></span> Email</h3>
