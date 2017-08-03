@@ -26,6 +26,9 @@ h4 {
     font-weight: 400;
     margin-bottom: 30px;
 }  
+.side-margins {
+    margin: 0px 6% 0px 6%;
+}
 .jumbotron {
     background-color: var(--primary-color);  /* jumbotron background color - turqouise blue */
     color: var(--menu-text);  /* jumbotron text color - white #fff */
