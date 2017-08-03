@@ -16,12 +16,6 @@
     .sideMargins {
       margin: 0px 6% 0px 6%;
     }
-    .rightBorder {
-      border-right: 2px solid #000000;
-    }
-    .leftPadding {
-      padding-left: 6%;
-    }
     .primaryBlue {
       color: #07889B;
     }
@@ -30,6 +24,9 @@
     }
     .primaryBorder {
       border: 5px ridge #07889B;
+    }
+    .p-indent {
+      padding-left: 6%;
     }
     #logo {
     font-family: Montserrat, sans-serif;
@@ -65,21 +62,28 @@
 <!-- Container (Contact Section) -->
 <div id="contact" class="container-fluid bg-grey sideMargins">
   <div class="col-sm-8">
-    <h2 class="primaryBlue">&emsp;&emsp;Office Location</h2>
-    <div class="col-sm-12 rightBorder">
-      <div id="googleMap" class="primaryBorder" style="height: 70vmin; width: 90%;"></div>
+    <h2 class="primaryBlue text-center">Office Location</h2>
+    <div class="col-sm-12">
+      <div id="googleMap" class="primaryBorder" style="height: 70vmin; width: 100%;"></div>
+      <br><br>
     </div>
   </div>
-  <div class="col-sm-4 leftPadding">
-    <h2 class="primaryBlue" align="left">Contact&nbsp;&nbsp;<span id="logo">LJHC</span></h2>
+  <div class="col-sm-4 p-indent">
+    <h2 class="primaryBlue text-center">Contact&nbsp;&nbsp;<span id="logo">LJHC</span></h2><br><br>
     <h3 class="subHeaders"><span class="primaryBlue glyphicon glyphicon-phone"></span> Phone Number</h3>
-    <p>(713) 417-0280</p>
+    <p class="p-indent">(713) 417-0280</p>
     <h3 class="subHeaders"><span class="primaryBlue glyphicon glyphicon-envelope"></span>&nbsp; Email</h3>
-    <p>leejanehc@gmail.com</p>
+    <p class="p-indent">leejanehc@gmail.com</p>
     <h3 class="subHeaders"><span class="primaryBlue glyphicon glyphicon-map-marker"></span> Office Address</h3>
-    <p>14511 Falling Creek Dr. Ste 102 <br>Houston, TX 77388</p>
+    <p class="p-indent">14511 Falling Creek Dr. Ste 102 <br>Houston, TX 77388</p>
   </div>
 </div>
+
+<footer class="container-fluid bg-grey text-center sideMargins">
+  <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+</footer>
 
 <script>
 function myMap() {
