@@ -25,7 +25,14 @@ h4 {
     color: var(--primary-text); /* primary text color - almost black #303030 */
     font-weight: 400;
     margin-bottom: 30px;
-}  
+}
+.newFooter {
+  padding: 10px 6% 10px 6%;
+  background-color: #07889B;
+}
+.footerContent{
+  color: #FFFFFF;
+}
 .side-margins {
     margin: 0px 6% 0px 6%;
 }
@@ -145,7 +152,6 @@ h4 {
 }
 footer .glyphicon {
     font-size: 20px;
-    margin-bottom: 20px;
     color: var(--primary-color); /* bright red #f4511e*/
 }
 .slideanim {visibility:hidden;}
@@ -158,6 +164,10 @@ footer .glyphicon {
 }
 .sub1 {
     padding-left: 31.5%;
+}
+#logo {
+font-family: Montserrat, sans-serif;
+letter-spacing: 3px;
 }
 
 @keyframes slide {
