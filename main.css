@@ -26,7 +26,7 @@ h4 {
     font-weight: 400;
     margin-bottom: 30px;
 }
-h4.noBreak {
+h4.noBreak { /* for development.html page */
     margin-bottom: 5px;
 }
 .newFooter {
