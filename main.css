@@ -165,7 +165,7 @@ footer .glyphicon {
     -webkit-animation-duration: 1s;
     visibility: visible;
 }
-.sub1 {
+.sub1 { /* for submenu in index.html */
     padding-left: 31.5%;
 }
 #logo {
