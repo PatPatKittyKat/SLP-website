@@ -29,9 +29,26 @@ h4 {
 h4.noBreak { /* for development.html page */
     margin-bottom: 5px;
 }
+table, th, td {
+    border: 1px solid #999;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+}
+th {
+    text-align: left;
+}
+table#t01 tr:nth-child(even) {
+    background-color: white;
+}
+table#t01 tr:nth-child(odd) {
+    background-color: var(--secondary-section);
+}
+
 .newFooter {
   padding: 10px 6% 10px 6%;
-  background-color: #07889B;
+  background-color: var(--primary-color);
 }
 .footerContent{
   color: #FFFFFF;
