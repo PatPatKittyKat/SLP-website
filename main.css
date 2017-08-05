@@ -26,6 +26,9 @@ h4 {
     font-weight: 400;
     margin-bottom: 30px;
 }
+h4.noBreak {
+    margin-bottom: 5px;
+}
 .newFooter {
   padding: 10px 6% 10px 6%;
   background-color: #07889B;
