@@ -1,5 +1,5 @@
 # Website for LJHC Speech Pathology Services
 
-[Link to website](https://www.google.com)
+[Link to website](https://www.LJHCspeech.com)
 
-For now, the above link only takes you to Google's homepage. Will update with the proper link once the domain name and host server are purchased.
+This website was built with HTML/CSS/JavaScript using some features imported with Bootstrap.
