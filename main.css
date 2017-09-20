@@ -46,6 +46,14 @@ table#t01 tr:nth-child(odd) {
     background-color: var(--secondary-section);
 }
 
+.bigger{
+    font-size: 200%;
+}
+
+.big{
+    font-size: 150%;
+}
+
 .newFooter {
   padding: 10px 6% 10px 6%;
   background-color: var(--primary-color);
